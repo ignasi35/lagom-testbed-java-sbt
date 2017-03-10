@@ -1,10 +1,10 @@
-organization in ThisBuild := "com.example"
+organization in ThisBuild := "com.lightbend.lagom"
 version in ThisBuild := "1.0-SNAPSHOT"
 
 // the Scala version that will be used for cross-compiled libraries
 scalaVersion in ThisBuild := "2.11.8"
 
-lazy val `lagom-test-bed-java-sbt` = (project in file("."))
+lazy val `lagom-testbed-java-sbt` = (project in file("."))
   .aggregate(
     `test-001-monoservice`
   )
