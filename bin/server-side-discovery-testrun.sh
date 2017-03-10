@@ -2,7 +2,7 @@
 
 
 ## parse single optional argument
-if [ "conductr" == $1 ]
+if [ "conductr" == "$1" ]
 then
   HOST="192.168.10.1"
 else

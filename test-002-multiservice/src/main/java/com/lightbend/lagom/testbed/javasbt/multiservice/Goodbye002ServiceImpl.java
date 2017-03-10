@@ -17,7 +17,7 @@ public class Goodbye002ServiceImpl implements Goodbye002Service {
   }
 
   @Override
-  public ServiceCall<NotUsed, String> hello(String id) {
+  public ServiceCall<NotUsed, String> goodbye(String id) {
     return request -> CompletableFuture.completedFuture(id);
   }
 
