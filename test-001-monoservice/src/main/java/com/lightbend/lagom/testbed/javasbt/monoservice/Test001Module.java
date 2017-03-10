@@ -6,7 +6,7 @@ package com.lightbend.lagom.testbed.javasbt.monoservice;
 import com.google.inject.AbstractModule;
 import com.lightbend.lagom.javadsl.server.ServiceGuiceSupport;
 
-public class Hello001Module extends AbstractModule implements ServiceGuiceSupport {
+public class Test001Module extends AbstractModule implements ServiceGuiceSupport {
   @Override
   protected void configure() {
     bindServices(serviceBinding(Hello001Service.class, Hello001ServiceImpl.class));
